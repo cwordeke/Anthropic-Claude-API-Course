@@ -1,11 +1,14 @@
 [
   {
-    "task": "Create a Python function that extracts the region from an AWS S3 bucket ARN (e.g., 'arn:aws:s3:::my-bucket-us-west-2' should return 'us-west-2')"
+    "task": "Create a JSON policy document that grants read-only access to all S3 buckets for a specific IAM user",
+    "format": "json"
   },
   {
-    "task": "Generate a JSON object for an AWS CloudWatch alarm that monitors EC2 CPU utilization above 80% for 2 consecutive periods of 5 minutes each"
+    "task": "Write a Python function that extracts the region from an AWS ARN string",
+    "format": "python"
   },
   {
-    "task": "Write a regular expression that validates AWS IAM role names according to AWS naming conventions (1-64 characters, alphanumeric plus +, =, ., @, -, and _ characters)"
+    "task": "Create a regular expression that validates AWS S3 bucket names according to naming rules (3-63 characters, lowercase letters, numbers, hyphens, no consecutive periods)",
+    "format": "regex"
   }
 ]
