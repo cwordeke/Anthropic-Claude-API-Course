@@ -1,14 +1,50 @@
 [
   {
-    "task": "Create a JSON policy document that grants read-only access to all S3 buckets for a specific IAM user",
-    "format": "json"
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "85",
+      "goal": "muscle building with caloric surplus",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers all meals for one day (breakfast, lunch, dinner, and snacks)",
+      "Total daily protein intake meets or exceeds 150g to support muscle building",
+      "Total daily calories create a surplus of at least 300-500 calories above maintenance for a 85kg athlete",
+      "Meals are practical and compact in description (concise formatting)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-focused athlete (weightlifter) requiring high protein intake and caloric surplus for muscle building"
   },
   {
-    "task": "Write a Python function that extracts the region from an AWS ARN string",
-    "format": "python"
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training - carbohydrate loading for endurance with moderate protein for recovery",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus snacks for one day",
+      "Emphasizes high carbohydrates (55-65% of calories) with moderate protein (1.2-1.6g per kg body weight) for endurance athlete",
+      "Includes practical, realistic foods suitable for marathon training nutrition",
+      "Plan is concise and easy to follow"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an endurance athlete (marathon runner) needing carbohydrate loading and sustained energy with moderate protein for recovery"
   },
   {
-    "task": "Create a regular expression that validates AWS S3 bucket names according to naming rules (3-63 characters, lowercase letters, numbers, hyphens, no consecutive periods)",
-    "format": "regex"
+    "prompt_inputs": {
+      "height": "160",
+      "weight": "52",
+      "goal": "Maintain lean muscle mass while improving flexibility and balance for gymnastics competition",
+      "restrictions": "Vegan (no animal products), nut allergy"
+    },
+    "solution_criteria": [
+      "All meals are vegan with complete protein sources (legumes, seeds, tofu, or combinations)",
+      "Meal plan is compact and fits one day with 3-4 meals/snacks",
+      "Includes micronutrient-dense foods addressing iron, B12, calcium, and omega-3s for vegan athletes",
+      "Calorie and macronutrient distribution supports athletic performance while respecting weight-conscious parameters for gymnastics"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific dietary restriction (vegan gymnast) requiring complete protein sources and micronutrient-dense foods within weight-conscious parameters"
   }
 ]
